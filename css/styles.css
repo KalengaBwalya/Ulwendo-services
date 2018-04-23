@@ -18,7 +18,8 @@
  color: #000033; 
 }
 #responsive-btn{
- background-color: #22bd22; 
+ background-color: #22bd22;
+ border: none;
 }
 #small{
  margin-top: 60px;
