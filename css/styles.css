@@ -70,11 +70,11 @@ h2{
   color: #006400;
 }
 #contactbtns{
-  border-left: #2e8b57 solid 2px;
+  border-left: #2e8b57 solid 5px;
   vertical-align: middle;
 }
 #contactbtn{
- padding-top: 15%;
+ padding-top: 8%;
 }
 .card-header{
   background-color: #98fb98;
@@ -110,6 +110,9 @@ h2{
 }
 .copyright{
  border-top: #50c878 solid 1px;
+}
+.falinks{
+  margin-bottom: 3%;
 }
 
 /**end footer**/

@@ -34,13 +34,50 @@
                         <li class="nav-item active"><a style="color: rgb(21, 9, 122)" class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                     </ul>
                     <span class="navbar-text">
-                        <a data-toggle="modal" data-target="#loginModal">
+                        <a style="color: rgb(21, 9, 122)" data-toggle="modal" data-target="#loginModal">
                             <span class="fa fa-sign-in"></span> Login
                         </a>
                     </span>
                 </div>
             </div>   
         </nav>
+        <div id="loginModal" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-lg" role="content">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Login</h4>
+                            <button type="button" class="close" data-dismiss="modal">
+                                &times;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-sm-4">
+                                        <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                        <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group col-sm-4">
+                                        <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                        <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                                    </div>
+                                    <div class="col-sm-auto">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox">
+                                            <label class="form-check-label"> Remember me
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                    <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         <header class="jumbotron">
             <div class="container justify-content-center">
@@ -57,8 +94,8 @@
                     <li class="breadcrumb-item active">Contact Us</li>
                 </ol>
                 <div class="col-12">
-                <h3>Contact Us</h3>
-                <hr>
+                    <h3>Contact Us</h3>
+                    <hr>
                 </div>
             </div>
 
@@ -75,10 +112,13 @@
                     <i class="fa fa-phone"></i>: +852 1234 5678<br>
                     <i class="fa fa-fax"></i>: +852 8765 4321<br>
                     <i class="fa fa-envelope"></i>:
-                        <a href="mailto:confusion@food.net">confusion@food.net</a>
+                        <a href="mailto:kalengabwalya@gmail.com">ulwendo@services.net</a>
                 </address>
             </div>
             <div id="contactbtns" class="col-12 col-sm-6 offset-sm-1 justify-content-center">
+                <div class="col-12">
+                    <h5>Get in touch</h5>
+                </div>
                 <div id="contactbtn" class="btn-group" role="group">
                     <a role="button" class="btn btn-primary" href="tell:+85212345678"><i class="fa fa-phone"></i> Call</a>
                     <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
@@ -165,25 +205,14 @@
         <footer class="panel-footer">
             <div class="container">
                 <div class="row">             
-                    <div class="col-4 offset-1 col-sm-2">
+                    <div class="col-12 offset-1 col-sm-3">
                         <h6 style="text-decoration: underline;">SITE NAVIGATION</h6>
                         <ul class="list-unstyled">
                             <li><a style="color:chartreuse;" href="./aboutus.html">About</a></li>
                             <li ><a style="color: chartreuse;" href="./contactus.html">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="col-7 col-sm-5">
-                        <h6 style="text-decoration: underline;">OUR ADDRESS</h6>
-                        <address>
-                        121, Clear Water Bay Road<br>
-                        Clear Water Bay, Kowloon<br>
-                        HONG KONG<br>
-                        <i class="fa fa-phone fa-lg"></i> +852 1234 5678<br>
-                        <i class="fa fa-fax fa-lg"></i> +852 8765 4321<br>
-                        <i class="fa fa-envelope fa-lg"></i> <a style="color: chartreuse" href="mailto:kalengabwalya@gmail.com">ulwendo@services.net</a>
-                    </address>
-                    </div>
-                    <div class="col-12 col-sm-4 align-self-center">
+                    <div class="col-12 col-sm-4 align-self-center falinks">
                         <div class="text-center">
                             <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
                             <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
@@ -192,15 +221,23 @@
                             <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
                         </div>
                     </div>
+                    <div class="col-12 offset-1 col-sm-3">
+                        <h6 style="text-decoration: underline;">OUR ADDRESS</h6>
+                        <address>
+                            121, Clear Water Bay Road<br>
+                            Clear Water Bay, Kowloon<br>
+                            HONG KONG<br>
+                            <i class="fa fa-phone fa-lg"></i> +852 1234 5678<br>
+                            <i class="fa fa-fax fa-lg"></i> +852 8765 4321<br>
+                            <i class="fa fa-envelope fa-lg"></i> <a style="color: chartreuse" href="mailto:kalengabwalya@gmail.com">ulwendo@services.net</a>
+                        </address>
+                    </div>
                 </div>
             </div>
-            <div class="map-responsive">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15388.33712438643!2d28.3757783!3d-15.3719212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe4be4a81081573ca!2sNkoloma+Stadium!5e0!3m2!1sen!2szm!4v1525874832896" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
             <div class="row justify-content-center copyright">             
-                    <div class="col-auto">
-                        <p>© Copyright 2018 Ulwendo Services</p>
-                    </div>
+                <div class="col-auto">
+                    <p>© Copyright 2018 Ulwendo Services</p>
+                </div>
             </div>
         </footer>
         <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
