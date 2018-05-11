@@ -139,7 +139,10 @@ h2{
 .falinks{
   margin-bottom: 3%;
 }
-
+#proudly-zambian{
+  float: right;
+  font-size: x-small;
+}
 /**end footer**/
 
   
