@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KalengaBwalya/Ulwendo-services/issues"
   },
-  "homepage": "https://github.com/KalengaBwalya/Ulwendo-services#readme"
+  "homepage": "https://github.com/KalengaBwalya/Ulwendo-services#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
 }
