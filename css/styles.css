@@ -1,50 +1,55 @@
+/********************header*********************/
 .navbar{
- background-color:  #ffffff;
- height: 100px;
+ background-color:  #f0fff0;
+ height: 70px;
  color: #2e8b57;
- border-left: 32px solid #50c878;
- border-right: 32px solid #50c878;
- border-top: #50c878 solid 10px; 
+ border-left: 25px solid #086614;
+ border-right: 25px solid #086614;
+ border-top: #069719 solid 20px; 
  box-shadow: 5px 5px 5px #2e8b57; 
 }
-
-.navbar a{
-  color: #2e8b57;
- }
-
 .navbar-brand{
- margin-top: -10px;
+ margin-top: -2px;
 }
 .navbar-toggler{
   background-color: #2e8b57;
 }
-
-/* 
-#collapsable-navbar{
- margin-top: 45px;
+.navbar .container .navbar-collapse .nav-item .nav-link span{
+  color: #069719;
+  margin-left: 5px;
 }
-#collapsable-navbar ul li a{
- color: #000033; 
+.navbar .container .navbar-collapse .nav-item a{
+  font-size: small;
+  font-weight: 900;
+  color:  #15097a;
+  margin-right: 10px;
 }
-#responsive-btn{
- background-color: #22bd22;
- border: none;
+.navbar .container .navbar-collapse .navbar-text a span{
+  color: #15097a;
+  font-size: large;
 }
-#small{
- margin-top: 60px;
- margin-left: 120px;
+.navbar .container .navbar-collapse .navbar-text a{
+  font-size: small;
+  font-weight: 700;
+  color: #069719;
 }
-#small em{
- color: #22bd22;
- text-decoration: underline;
-} */
+.navbar .container .navbar-collapse .navbar-nav .active{
+  margin-top: -1px;
+  border-bottom: #aae2aa 15px solid;
+  background-color: #c1fac1;
+}
 /**end header**/
+
 
 /******************* body **********************/
 body{
-  color: rgb(21, 9, 122);
+  color: rgb(9, 49, 122);
   background-color: #eef7ee;
-  text-align: justify;
+  text-align: left;
+  font-weight: 400;
+}
+#loginModal .modal-dialog .modal-content{
+  background-color: #f0fff0;
 }
 #kidsjumbo {
   background-image: url(/images/12.jpg);
@@ -55,18 +60,17 @@ body{
   
 }
 .jumbotron{
-  padding-top: 150px;
-  background-color: #50c878;
-  color: floralwhite;
+  padding-top: 120px;
+  background-color: #3d965a;
+  color: #c1fac1;
   text-align: justify;
-  background-image: url(/images/2018-11-5--09-30-58.jpeg);
-  background-size: 100%;
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
+  font-weight: 600;
 }
 .breadcrumb{
   margin-top: -32px;
-  background-color: #aefcae;
+  background-color: #c1fac1;
   border-bottom-right-radius: 100px;
 
 }
@@ -81,7 +85,7 @@ h2{
   color: #006400;
 }
 #contactbtns{
-  border-left: #2e8b57 solid 5px;
+  border-left: #50c878 solid 5px;
   vertical-align: middle;
 }
 #contactbtn{
@@ -94,32 +98,117 @@ h2{
   height: 350px;
 }
 .carousel .carousel-item .carousel-caption{
-  color: #98fb98;
-  font-size: large;
+  color: #4d9256;
+  font-size: xx-large;
   font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
+  font-weight: bolder;
+}
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 350px;
+}
+.container .row .col-12 .card .card-body{
+  background-color: #f8fff8;
+}
+#container1{
+  border-top: #bccebe solid .1px;
+  padding-top: 40px;
+  border-bottom: #bccebe solid .1px;
+  padding-bottom: 70px;
+}
+#container1 .row .col-12 p{
+  border-left: #50c878 4px solid;
+  padding-left: 10px;
+}
+#container2 .row .col-12 p{
+  border-left: #50c878 4px solid;
+  padding-left: 10px;
+}
+#container2{
+  padding-top: 40px;
+  border-bottom: #bccebe solid .1px;
+  padding-bottom: 70px;
+}
+#container3{
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+#contactcont1{
+  border-top: #bccebe solid .1px;
+  padding-top: 40px;
+  border-bottom: #bccebe solid .1px;
+  padding-bottom: 70px;
+}
+#contactcont1 .row .col-12 address a{
+ color: #50c878;
+}
+#contactcont1 .row .col-12 address a:hover{
+  color: #069719;
+ }
+#contactcont2{
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.row .card .blockquote .blockquote-footer cite a{
+  color: #50c878;
+}
+.row .card .blockquote .blockquote-footer cite a:hover{
+  color: #069719;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #50c878;
+  color: #f8fff8;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+#myBtn:hover {
+  background-color: #2e8b57;
+}
+#homecont1{
+  margin-top: 100px
+}
+#homecont2{
+  margin-top: 100px
+}
+#homecont3{
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 350px;
-}
 /**End body**/
 
 /******************* footer **********************/
 .panel-footer{
-  background-color: #2e8b57;
-  color: floralwhite;
+  color: #eef7ee;
   padding-top: 3%;
   background-image: url(/images/2018-11-5--09-30-58.jpeg);
   background-size: 100%; 
 }
 
-.panel-footer li a:hover{
- color: #50c878;
+.panel-footer .container .row .col-12 .list-unstyled li a{
+ color: chartreuse;
 }
+.panel-footer .container .row .col-12 .list-unstyled li a:hover{
+  color: #50c878;
+ }
+.panel-footer .container .row .col-12 address a{
+  color: chartreuse;
+ }
+ .panel-footer .container .row .col-12 address a:hover{
+  color: #50c878;
+ }
 .map-responsive{
   overflow:hidden;
   padding-bottom:56.25%;
@@ -134,14 +223,30 @@ h2{
   position:absolute;
 }
 .copyright{
- border-top: #50c878 solid 1px;
+ font-size: small;
+ align-items: center;
+ margin-top: 20px;
 }
 .falinks{
   margin-bottom: 3%;
 }
 #proudly-zambian{
-  float: right;
+  text-align: center;
   font-size: x-small;
+}
+#copyrightdiv{
+  background-color: #aae2aa;
+  color: #15097a;
+  font-weight: 600;
+  border-top:  #2e8b57 20px solid;
+  border-bottom: #50c878 25px solid;
+  text-align: center;
+}
+#footerlogo{
+  margin-top: -25px;
+  margin-bottom: -25px;
+  align-self: flex-start;
+  text-align: center;
 }
 /**end footer**/
 
