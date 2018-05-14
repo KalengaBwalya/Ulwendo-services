@@ -23,6 +23,7 @@
   font-weight: 900;
   color:  #15097a;
   margin-right: 10px;
+  margin-top: 10px;
 }
 .navbar .container .navbar-collapse .navbar-text a span{
   color: #15097a;
@@ -35,7 +36,7 @@
 }
 .navbar .container .navbar-collapse .navbar-nav .active{
   margin-top: -1px;
-  border-bottom: #aae2aa 15px solid;
+  border-bottom: #50c878  5px solid;
   background-color: #c1fac1;
 }
 /**end header**/
@@ -67,6 +68,7 @@ body{
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
   font-weight: 600;
+  border-radius: 0px;
 }
 .breadcrumb{
   margin-top: -32px;
@@ -118,13 +120,10 @@ h2{
   border-bottom: #bccebe solid .1px;
   padding-bottom: 70px;
 }
-#container1 .row .col-12 p{
+.paraborder p{
   border-left: #50c878 4px solid;
   padding-left: 10px;
-}
-#container2 .row .col-12 p{
-  border-left: #50c878 4px solid;
-  padding-left: 10px;
+  padding-top: 15px;
 }
 #container2{
   padding-top: 40px;
@@ -139,7 +138,7 @@ h2{
   border-top: #bccebe solid .1px;
   padding-top: 40px;
   border-bottom: #bccebe solid .1px;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
 }
 #contactcont1 .row .col-12 address a{
  color: #50c878;
@@ -149,7 +148,20 @@ h2{
  }
 #contactcont2{
   padding-top: 40px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
+  border-bottom: #bccebe solid .1px;
+}
+#contactcont3{
+  padding-top: 100px;
+  text-align: center;
+}
+#contactcont2main{
+  padding-top: 100px;
+}
+.row iframe{
+  border: 0; 
+  height: 300px;
+  margin-top: 20px;
 }
 .row .card .blockquote .blockquote-footer cite a{
   color: #50c878;
@@ -174,7 +186,7 @@ h2{
   font-weight: 500;
 }
 #myBtn:hover {
-  background-color: #2e8b57;
+  background-color: #55bb77;
 }
 #homecont1{
   margin-top: 100px
@@ -186,7 +198,9 @@ h2{
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
+#vision{
+  margin-top: 100px;
+}
 /**End body**/
 
 /******************* footer **********************/
@@ -209,19 +223,6 @@ h2{
  .panel-footer .container .row .col-12 address a:hover{
   color: #50c878;
  }
-.map-responsive{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
-.map-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-}
 .copyright{
  font-size: small;
  align-items: center;
@@ -243,8 +244,8 @@ h2{
   text-align: center;
 }
 #footerlogo{
-  margin-top: -25px;
-  margin-bottom: -25px;
+  margin-top: -27px;
+  margin-bottom: -30px;
   align-self: flex-start;
   text-align: center;
 }
