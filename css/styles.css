@@ -1,11 +1,11 @@
 /********************header*********************/
 .navbar{
  background-color:  #f0fff0;
- height: 70px;
+ height: 60px;
  color: #2e8b57;
- border-left: 25px solid #086614;
- border-right: 25px solid #086614;
- border-top: #069719 solid 20px; 
+ border-left: 15px solid #2e8060;
+ border-right: 15px solid #2e8060;
+ border-top: #2e8060 solid 10px; 
  box-shadow: 1px 1px 1px #2e8b57; 
  font-family: NTR;
  font-size: 105%;
@@ -54,33 +54,41 @@ body{
 #loginModal .modal-dialog .modal-content{
   background-color: #f0fff0;
 }
-#kidsjumbo {
+#chalkboardJumbo {
   background-image: url(/images/chalk-board.jpg);
-  width: 100%;
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 0;
-  background-size: 100%;
   font-size: xx-large;
   font-weight: bolder;
-  padding-top: 90px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 #journeyJumbo{
   background-image: url(/images/journey.PNG);
-  background-repeat: no-repeat;
-  margin-top: -60px;
   text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 .jumbotron{
   width: 100%;
   margin-bottom: 0;
   background-size: 100%;
-  padding-top: 130px;
   background-image: url(/images/chalk-board.jpg);
   color: #ecfde4;
   text-align: justify;
   font-family: Walter Turncoat;
   font-size: larger;
   border-radius: 0px;
+  padding-top: 90px;
+  max-height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 .breadcrumb{
   background-color: #c1fac1;
@@ -105,10 +113,12 @@ h2{
  padding-top: 8%;
 }
 .card-header{
-  background-color: #98fb98;
+  background-color: #2e8060;
+  color: #ecfde4;
 }
+
 .carousel .carousel-item {
-  height: 250px;
+  height: 350px;
 }
 .carousel .carousel-item .carousel-caption{
   color: #ecfde4;
@@ -217,14 +227,19 @@ h2{
 .card{
   box-shadow: .7px .7px .7px #2e8b57;
 }
+
 /**End body**/
 
 /******************* footer **********************/
 .panel-footer{
   color: #eef7ee;
   padding-top: 3%;
-  background-image: url(/images/2018-11-5--09-30-58.jpeg);
-  background-size: 100%; 
+  background-image: url(/images/chalk-board.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
 }
 
 .panel-footer .container .row .col-12 .list-unstyled li a{
@@ -256,7 +271,7 @@ h2{
 }
 #copyrightdiv{
   background-color: #aae2aa;
-  border-top:  #2e8b57 15px solid;
+  border-top:  #2e8060 15px solid;
   border-bottom: #50c878 25px solid;
   text-align: center;
 }
