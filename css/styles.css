@@ -55,16 +55,27 @@ body{
   background-color: #f0fff0;
 }
 #kidsjumbo {
-  background-image: url(/images/12.jpg);
+  background-image: url(/images/chalk-board.jpg);
   width: 100%;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 0;
   background-size: 100%;
-  
+  font-size: xx-large;
+  font-weight: bolder;
+  padding-top: 90px;
+}
+#journeyJumbo{
+  background-image: url(/images/journey.PNG);
+  background-repeat: no-repeat;
+  margin-top: -60px;
+  text-align: center;
 }
 .jumbotron{
-  padding-top: 120px;
-  background-color: #3d965a;
+  width: 100%;
+  margin-bottom: 0;
+  background-size: 100%;
+  padding-top: 130px;
+  background-image: url(/images/chalk-board.jpg);
   color: #ecfde4;
   text-align: justify;
   font-family: Walter Turncoat;
@@ -72,10 +83,9 @@ body{
   border-radius: 0px;
 }
 .breadcrumb{
-  margin-top: -32px;
   background-color: #c1fac1;
   border-bottom-right-radius: 100px;
-
+  font-size: 90%;
 }
 .breadcrumb-item{
   color: #006400;
@@ -98,13 +108,13 @@ h2{
   background-color: #98fb98;
 }
 .carousel .carousel-item {
-  height: 350px;
+  height: 250px;
 }
 .carousel .carousel-item .carousel-caption{
-  color: #4d9256;
-  font-size: xx-large;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bolder;
+  color: #ecfde4;
+  font-size: x-large;
+  font-family: Walter Turncoat;
+  font-weight: 900;
 }
 .carousel-item img {
   position: absolute;
@@ -127,11 +137,11 @@ h2{
 }
 #container2{
   padding-top: 40px;
-  border-bottom: #bccebe solid .1px;
   padding-bottom: 70px;
 }
 #container3{
   padding-top: 40px;
+  border-top: #bccebe solid .1px;
   padding-bottom: 70px;
 }
 #contactcont1{
@@ -156,7 +166,7 @@ h2{
   text-align: center;
 }
 #contactcont2main{
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .row iframe{
   border: 0; 
@@ -246,7 +256,7 @@ h2{
 }
 #copyrightdiv{
   background-color: #aae2aa;
-  border-top:  #2e8b57 20px solid;
+  border-top:  #2e8b57 15px solid;
   border-bottom: #50c878 25px solid;
   text-align: center;
 }
