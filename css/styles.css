@@ -8,8 +8,6 @@
  border-top: #2e8060 solid 10px; 
  box-shadow: 1px 1px 1px #2e8b57; 
  font-family: NTR;
- font-size: 105%;
- font-weight: 500;
 }
 .navbar-brand{
  margin-top: 20px;
@@ -26,8 +24,18 @@
 }
 .navbar .container .navbar-collapse .nav-item a{
   color: #112901;
-  margin-right: 10px;
-  margin-top: 3px;
+  margin-right: 20px;
+  margin-top: -5px;
+}
+nav .container .collapse .navbar-nav .nav-item{
+  font-size: 100%;
+  font-weight: 500;
+  height: 51px;
+  padding-top: 13px;
+  margin-top: 100;
+  margin-bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .navbar .container .navbar-collapse .navbar-text a span{
   color: #15097a;
@@ -38,9 +46,9 @@
   font-size: larger;
 }
 .navbar .container .navbar-collapse .navbar-nav .active{
-  margin-top: -1px;
   border-bottom: #50c878  5px solid;
   background-color: #c1fac1;
+  height: 50px;
 }
 /**end header**/
 
@@ -57,6 +65,16 @@ body{
 #loginModal .modal-dialog .modal-content{
   background-color: #f0fff0;
 }
+#registerModal .modal-dialog .modal-content{
+  background-color: #f0fff0;
+}
+#registerModal {
+    padding-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+    margin: 20px;
+    vertical-align: middle;
+}
 #chalkboardJumbo {
   background-image: url(/images/chalk-board.jpg);
   margin-top: 0;
@@ -69,7 +87,7 @@ body{
   background-position: center;
 }
 #journeyJumbo{
-  background-image: url(/images/journey.PNG);
+  background-image: url(/images/journey.jpg);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -86,17 +104,43 @@ body{
   font-family: Walter Turncoat;
   font-size: larger;
   border-radius: 0px;
-  padding-top: 90px;
-  max-height: 200px;
+  padding-top: 30px;
+  max-height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
 }
+.jumbotron .container .col-12 center{
+  padding-top: 80px;
+}
+.jumbotron .container .col-12 h1{
+  margin-top: -25px;
+}
 .breadcrumb{
   background-color: #c1fac1;
   border-bottom-right-radius: 100px;
   font-size: 90%;
+}
+#startjourneybtn{
+  width: 30%;
+  width: 15em;
+  padding: 1em;
+  color: rgb(255, 255, 255);
+  background-color: #2e8060;
+  border-radius: 0.25em;
+  text-decoration: none;
+  text-align: center;
+}
+#startjourneybtn:hover, #startjourneybtn:focus {
+  color: #86fc86;
+  text-decoration: none;
+}
+#startjourneybtn::before {
+  font-family: "Font Awesome 5 Solid";
+}
+#journeyJumbo .svg-inline--fa {
+  margin-right: 0.5em;
 }
 .breadcrumb-item{
   color: #006400;
@@ -121,19 +165,28 @@ h2{
 }
 
 .carousel .carousel-item {
-  height: 350px;
+  height: 355px;
 }
 .carousel .carousel-item .carousel-caption{
-  color: #ecfde4;
-  font-size: x-large;
-  font-family: Walter Turncoat;
-  font-weight: 900;
+  font-size: 350%;
+  font-family: East Sea Dokdo;
+  font-weight: 500;
+  color: #ffffff;
+  text-shadow: 3px 3px #2e8060;
 }
+
 .carousel-item img {
   position: absolute;
   top: 0;
   left: 0;
   min-height: 350px;
+}
+#carouselButton{
+  right: 0;
+  position: absolute;
+  bottom: 0;
+  background-color: #2e8b57;
+  color: aliceblue;
 }
 .container .row .col-12 .card .card-body{
   background-color: #f8fff8;
