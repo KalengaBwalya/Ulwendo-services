@@ -1,6 +1,6 @@
 /********************header*********************/
 .navbar{
- background-color:  #f0fff0;
+  background-color:  #f0fff0; background-color:  #f0fff0; background-color:  #f0fff0;
  height: 60px;
  color: #2e8b57;
  border-left: 15px solid #2e8060;
@@ -51,7 +51,9 @@ nav .container .collapse .navbar-nav .nav-item{
   height: 50px;
 }
 /**end header**/
-
+.r{
+  color: #006401;
+}
 
 /******************* body **********************/
 body{
